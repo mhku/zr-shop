@@ -1,0 +1,108 @@
+/***css reset***/
+html {
+    -webkit-text-size-adjust:none;
+    width:100%;
+    height:100%;
+    overflow-x:hidden;
+    /*禁止用户选中页面中的内容*/
+    -webkit-user-select:none;
+    box-sizing: border-box;
+}
+*:before, *:after {
+    box-sizing: border-box;
+    max-height: 100000px
+}
+html,body,button,dd,div,dl,dt,fieldset,footer,form,h1,h2,h3,h4,h5,h6,header,html,input,label,span,i,legend,li,nav,ol,p,pre,section,table,tbody,td,textarea,th,thead,ul {
+    margin:0;
+    padding:0;
+    border:0;
+    /*防止Android中元素被点击时产生半透明灰色遮罩*/
+    -webkit-tap-highlight-color:transparent;
+    vertical-align: middle;
+    box-sizing: border-box;
+    /*去除移动端浏览器默认样式*/
+    -webkit-appearance: none;
+    /*防止长时间按住页面出现闪退*/
+    -webkit-touch-callout:none;
+}
+a {
+    text-decoration:none;
+    display:inline-block;
+}
+a:hover {
+    text-decoration:none;
+}
+img {
+    vertical-align:bottom;
+    border:0;
+    width:100%
+}
+ul, ol, li {
+    list-style: none
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0
+}
+body {
+    font-family:"苹方","Microsoft YaHei",Arial,Helvetica,sans-serif,simsun,"\5FAE\8F6F\96C5\9ED1";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin:0 auto;
+    width:7.5rem;
+}
+input,button{
+    outline:none;
+    border:none;
+}
+/*解决input的checkbox和radio类型在安卓端无法正常显示的问题*/
+input[type=checkbox]{
+    -webkit-appearance: checkbox;
+}
+/*去除上外边距溢出的影响*/
+.margin-clear:before{
+    content:" ";
+    display:table
+}
+/*右箭头公共样式*/
+.btn-right{
+    display: inline-block;
+    width:.1rem;
+    height:.18rem;
+    background-size: .1rem .18rem;
+    background: url("../img/btn-right.png") no-repeat;
+    margin-left:.1rem;
+    margin-top:.1rem;
+}
+ i.false1{
+    display: inline-block;
+    width:0.27rem;
+    height:0.27rem;
+    background: url("../img/btn_option_normal.png") no-repeat;
+    background-size: 0.27rem 0.27rem;
+    margin-right: .3rem;
+}
+ i.true1{
+    display: inline-block;
+    width:0.27rem;
+    height:0.27rem;
+    background: url("../img/icon_option_selected.png") no-repeat;
+    background-size: 0.27rem 0.27rem;
+    margin-right: .3rem;
+}
+i.false2{
+    display: inline-block;
+    width:0.52rem;
+    height:0.52rem;
+    background: url("../img/btn_option_normal.png") no-repeat;
+    background-size: 0.52rem 0.52rem;
+    margin-right: .3rem;
+}
+i.true2{
+    display: inline-block;
+    width:0.27rem;
+    height:0.27rem;
+    background: url("../img/icon_option_selected.png") no-repeat;
+    background-size: 0.52rem 0.52rem;
+    margin-right: .3rem;
+}

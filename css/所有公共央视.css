@@ -1,0 +1,60 @@
+.pay_content>li>span.false{
+    font-size: .28rem;
+    color:#999;
+}
+.pay_content>li>span.true{
+    color:#333;
+}
+/*支付选择*/
+.pay_content i.false{
+    display: inline-block;
+    width:0.52rem;
+    height:0.52rem;
+    background: url("../img/btn_option_normal.png") no-repeat;
+    background-size: 0.52rem 0.52rem;
+    margin-right: .3rem;
+}
+.pay_content i.true{
+    display: inline-block;
+    width:0.52rem;
+    height:0.52rem;
+    background: url("../img/btn_option_checked.png") no-repeat;
+    background-size: 0.52rem 0.52rem;
+    margin-right: .3rem;
+}
+/*<!-- 账户充值头部 -->*/
+/*<div class="register-header">*/
+/*<a href="#">*/
+/*<img src="img/btn_back.png" alt=""/>*/
+/*</a>*/
+  /*<p>账户充值</p>*/
+           /*</div>*/
+
+
+/*按钮*/
+.pay_btn{
+    height:.8rem;
+    width: 100%;
+    text-align: center;
+    margin-top:.6rem;
+}
+.pay_btn>input{
+    width:7.1rem;
+    height:.8rem;
+    line-height: .8rem;
+    color:#fff;
+    font-size: .3rem;
+    border-radius:.06rem;
+    background: #e53935;
+}
+
+/*<!--弹出框-->*/
+    /*<div class="model">*/
+/*<div class="full-model">*/
+/*<p>是否退出当前账户？</p >*/
+              /*<div class="login-out-confirm-btn">*/
+/*<button id="login-out-yes" class="general-spirit general-btn">确认</button>*/
+                                                                  /*<button id="login-out-no" class="general-spirit general-btn">取消</button>*/
+                                                                                                                                   /*</div>*/
+                                                                                                                                     /*</div>*/
+                                                                                                                                       /*</div>*/

@@ -1,0 +1,4 @@
+.btn_main_search_normal{background:url(../imgs/allbgs.png) no-repeat 0px 0px;height:30px;padding-left:34px;}
+.btn_main_home_normal{background:url(../imgs/allbgs.png) no-repeat 0px -30px;height:31px;padding-left:34px;}
+.btn_main_shopping_normal{background:url(../imgs/allbgs.png) no-repeat 0px -61px;height:32px;padding-left:34px;}
+.btn_main_mine_selected{background:url(../imgs/allbgs.png) no-repeat 0px -93px;height:32px;padding-left:29px;}
